@@ -55,13 +55,13 @@
   },
   "suites": [
     {
-      "title": "inventory-and-cart.test.ts",
-      "file": "inventory-and-cart.test.ts",
+      "title": "Add-to-cart.test.ts",
+      "file": "Add-to-cart.test.ts",
       "column": 0,
       "line": 0,
       "specs": [
         {
-          "title": "should display inventory items",
+          "title": "should add an item to the cart and verify it appears in the cart",
           "ok": true,
           "tags": [],
           "tests": [
@@ -75,20 +75,20 @@
                 {
                   "workerIndex": 0,
                   "status": "passed",
-                  "duration": 8052,
+                  "duration": 3519,
                   "errors": [],
                   "stdout": [],
                   "stderr": [],
                   "retry": 0,
-                  "startTime": "2024-08-08T21:02:28.728Z",
+                  "startTime": "2024-08-08T21:14:02.115Z",
                   "attachments": []
                 }
               ],
               "status": "expected"
             }
           ],
-          "id": "bdd780818cddcd77a22d-d0e48abb7125fb8d8d2a",
-          "file": "inventory-and-cart.test.ts",
+          "id": "25505aef3e48c6951672-4e871a60ccc162b01849",
+          "file": "Add-to-cart.test.ts",
           "line": 3,
           "column": 1
         }
@@ -97,8 +97,8 @@
   ],
   "errors": [],
   "stats": {
-    "startTime": "2024-08-08T21:02:27.768Z",
-    "duration": 14645.426,
+    "startTime": "2024-08-08T21:14:01.205Z",
+    "duration": 10336.743,
     "expected": 1,
     "skipped": 0,
     "unexpected": 0,
