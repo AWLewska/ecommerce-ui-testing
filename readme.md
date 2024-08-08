@@ -1,12 +1,11 @@
 # Playwright Test Suite
 
-This project demonstrates end-to-end testing with Playwright. It includes automated tests for UI and API testing.
+This project demonstrates end-to-end testing with Playwright. It includes automated tests for UI testing. 
 
 ## Features
 
 - Cross-browser testing
-- UI and API integration tests
-- Detailed test reports
+- UI tests
 
 ## Installation
 
