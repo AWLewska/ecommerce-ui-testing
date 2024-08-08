@@ -9,12 +9,18 @@ This project demonstrates end-to-end testing with Playwright. It includes automa
 
 ## Installation
 
-```bash
-npm install
+bash
+> npm install
 
 ## Running Tests
 
 To run the Playwright tests, use the following command:
 
-```bash
-npx playwright test
+bash
+> npx playwright test
+
+For individual tests specify test
+
+> npx playwright test login.test.ts
+
+
