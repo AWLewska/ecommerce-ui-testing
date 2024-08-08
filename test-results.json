@@ -44,7 +44,7 @@
         "testMatch": [
           "**/*.@(spec|test).?(c|m)[jt]s?(x)"
         ],
-        "timeout": 30000
+        "timeout": 60000
       }
     ],
     "shard": null,
@@ -55,18 +55,18 @@
   },
   "suites": [
     {
-      "title": "login.test.js",
-      "file": "login.test.js",
+      "title": "inventory-and-cart.test.ts",
+      "file": "inventory-and-cart.test.ts",
       "column": 0,
       "line": 0,
       "specs": [
         {
-          "title": "should log in successfully with valid credentials",
+          "title": "should display inventory items",
           "ok": true,
           "tags": [],
           "tests": [
             {
-              "timeout": 30000,
+              "timeout": 60000,
               "annotations": [],
               "expectedStatus": "passed",
               "projectId": "",
@@ -75,20 +75,20 @@
                 {
                   "workerIndex": 0,
                   "status": "passed",
-                  "duration": 3477,
+                  "duration": 8052,
                   "errors": [],
                   "stdout": [],
                   "stderr": [],
                   "retry": 0,
-                  "startTime": "2024-08-08T18:42:54.209Z",
+                  "startTime": "2024-08-08T21:02:28.728Z",
                   "attachments": []
                 }
               ],
               "status": "expected"
             }
           ],
-          "id": "087306b8335cdced5c6c-3bf66a5d438376c7f490",
-          "file": "login.test.js",
+          "id": "bdd780818cddcd77a22d-d0e48abb7125fb8d8d2a",
+          "file": "inventory-and-cart.test.ts",
           "line": 3,
           "column": 1
         }
@@ -97,8 +97,8 @@
   ],
   "errors": [],
   "stats": {
-    "startTime": "2024-08-08T18:42:53.482Z",
-    "duration": 5439.964999999999,
+    "startTime": "2024-08-08T21:02:27.768Z",
+    "duration": 14645.426,
     "expected": 1,
     "skipped": 0,
     "unexpected": 0,
