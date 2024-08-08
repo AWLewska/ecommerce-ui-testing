@@ -55,13 +55,13 @@
   },
   "suites": [
     {
-      "title": "Add-to-cart.test.ts",
-      "file": "Add-to-cart.test.ts",
+      "title": "invalid-login.test.ts",
+      "file": "invalid-login.test.ts",
       "column": 0,
       "line": 0,
       "specs": [
         {
-          "title": "should add an item to the cart and verify it appears in the cart",
+          "title": "should display an error message with invalid credentials",
           "ok": true,
           "tags": [],
           "tests": [
@@ -75,21 +75,21 @@
                 {
                   "workerIndex": 0,
                   "status": "passed",
-                  "duration": 3519,
+                  "duration": 5725,
                   "errors": [],
                   "stdout": [],
                   "stderr": [],
                   "retry": 0,
-                  "startTime": "2024-08-08T21:14:02.115Z",
+                  "startTime": "2024-08-08T21:20:27.300Z",
                   "attachments": []
                 }
               ],
               "status": "expected"
             }
           ],
-          "id": "25505aef3e48c6951672-4e871a60ccc162b01849",
-          "file": "Add-to-cart.test.ts",
-          "line": 3,
+          "id": "82dbca27745819a67739-1e0dccec5d966212b71d",
+          "file": "invalid-login.test.ts",
+          "line": 11,
           "column": 1
         }
       ]
@@ -97,8 +97,8 @@
   ],
   "errors": [],
   "stats": {
-    "startTime": "2024-08-08T21:14:01.205Z",
-    "duration": 10336.743,
+    "startTime": "2024-08-08T21:20:26.370Z",
+    "duration": 7862.874,
     "expected": 1,
     "skipped": 0,
     "unexpected": 0,
