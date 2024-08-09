@@ -6,6 +6,7 @@ This project demonstrates end-to-end testing with Playwright. It includes automa
 
 - Cross-browser testing
 - UI tests
+- Evidence of completed headless tests via screenshots 
 
 ## Installation
 
