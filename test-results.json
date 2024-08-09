@@ -55,13 +55,13 @@
   },
   "suites": [
     {
-      "title": "invalid-login.test.ts",
-      "file": "invalid-login.test.ts",
+      "title": "filter.test.ts",
+      "file": "filter.test.ts",
       "column": 0,
       "line": 0,
       "specs": [
         {
-          "title": "should display an error message with invalid credentials",
+          "title": "should filter the inventory items by price (low to high)",
           "ok": true,
           "tags": [],
           "tests": [
@@ -75,21 +75,21 @@
                 {
                   "workerIndex": 0,
                   "status": "passed",
-                  "duration": 5725,
+                  "duration": 4592,
                   "errors": [],
                   "stdout": [],
                   "stderr": [],
                   "retry": 0,
-                  "startTime": "2024-08-08T21:20:27.300Z",
+                  "startTime": "2024-08-09T09:45:29.769Z",
                   "attachments": []
                 }
               ],
               "status": "expected"
             }
           ],
-          "id": "82dbca27745819a67739-1e0dccec5d966212b71d",
-          "file": "invalid-login.test.ts",
-          "line": 11,
+          "id": "6f36c00f82bf5a2b4d64-c6eab1e66bcdedd15d7d",
+          "file": "filter.test.ts",
+          "line": 3,
           "column": 1
         }
       ]
@@ -97,8 +97,8 @@
   ],
   "errors": [],
   "stats": {
-    "startTime": "2024-08-08T21:20:26.370Z",
-    "duration": 7862.874,
+    "startTime": "2024-08-09T09:45:28.863Z",
+    "duration": 6751.803,
     "expected": 1,
     "skipped": 0,
     "unexpected": 0,
