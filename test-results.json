@@ -55,13 +55,13 @@
   },
   "suites": [
     {
-      "title": "filter.test.ts",
-      "file": "filter.test.ts",
+      "title": "e2eflow.test.ts",
+      "file": "e2eflow.test.ts",
       "column": 0,
       "line": 0,
       "specs": [
         {
-          "title": "should filter the inventory items by price (low to high)",
+          "title": "should complete an end-to-end purchase successfully",
           "ok": true,
           "tags": [],
           "tests": [
@@ -75,20 +75,20 @@
                 {
                   "workerIndex": 0,
                   "status": "passed",
-                  "duration": 4592,
+                  "duration": 3557,
                   "errors": [],
                   "stdout": [],
                   "stderr": [],
                   "retry": 0,
-                  "startTime": "2024-08-09T09:45:29.769Z",
+                  "startTime": "2024-08-09T09:55:47.311Z",
                   "attachments": []
                 }
               ],
               "status": "expected"
             }
           ],
-          "id": "6f36c00f82bf5a2b4d64-c6eab1e66bcdedd15d7d",
-          "file": "filter.test.ts",
+          "id": "3f9635cfc62402da2b67-4a0e38c3426bf00f5803",
+          "file": "e2eflow.test.ts",
           "line": 3,
           "column": 1
         }
@@ -97,8 +97,8 @@
   ],
   "errors": [],
   "stats": {
-    "startTime": "2024-08-09T09:45:28.863Z",
-    "duration": 6751.803,
+    "startTime": "2024-08-09T09:55:46.415Z",
+    "duration": 10280.031,
     "expected": 1,
     "skipped": 0,
     "unexpected": 0,
